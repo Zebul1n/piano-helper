@@ -1,0 +1,37 @@
+# Réglages locaux de Claude Code (permissions propres au poste)
+.claude/settings.local.json
+
+# Clés de signature et secrets : jamais dans le dépôt (DAT 10, ADR-0017)
+*.jks
+*.keystore
+*.p12
+keystore.properties
+signing.properties
+
+# Android / Gradle
+local.properties
+.gradle/
+build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python (prototypes)
+.venv/
+__pycache__/
+
+# Corpus privé et enregistrements : jamais publiés (US-QUA-01)
+corpus-prive/
+*.wav
+*.flac
+
+# Système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+# Fins de ligne normalisées (dépôt partagé Windows / WSL / CI)
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binaires
+*.png binary
+*.jpg binary
+*.sf2 binary
+*.onnx binary
+*.so binary
+*.jar binary
